@@ -1,0 +1,69 @@
+<script src="https://bulka-games-llc.github.io/PI_sbox/Build/NutakuSbox.loader.js"></script>
+<script type="text/javascript">
+		
+let gameInstance;
+const balancyData = {};
+const buildUrl = 'https://bulka-games-llc.github.io/PI_sbox/Build';
+const config   = {
+	dataUrl:            buildUrl + '/NutakuSbox.data.unityweb',
+	frameworkUrl:       buildUrl + '/NutakuSbox.framework.js.unityweb',
+	codeUrl:            buildUrl + '/NutakuSbox.wasm.unityweb',
+	streamingAssetsUrl: "https://bulka-games-llc.github.io/PI_sbox/StreamingAssets",
+	companyName:        'Bulkagames',
+	productName:        'PussyIsland',
+	productVersion:     "2.0.2",
+	};
+			
+var canvas;
+var bar;
+var barParent;
+             
+function setRootHeight() {
+console.log("setRootHeight");
+	const h = window.innerHeight;
+	document.getElementById("main").style.height = h + "px";
+}
+
+function init() {
+	canvas = document.querySelector("#unity-canvas"); //or getElementById('unity-canvas')
+	bar = document.querySelector("#progress-bar-primary");
+	barParent = document.querySelector("#logo-div");
+				
+	canvas.style.width  = '100%';
+	canvas.style.height = '100%';
+
+	NutakuGI.setIframeSize();
+	setRootHeight();
+	window.addEventListener("resize", setRootHeight);
+	
+	createUnityInstance(canvas, config, (progress) => {
+		bar.style.width = 100 * progress + "%";
+		}).then((unityInstance) => {
+			gameInstance = unityInstance;
+			barParent.parentNode.removeChild(barParent);
+			}).catch((message) => {
+				alert(message);
+				});
+	}
+
+window.addEventListener('load', init);
+</script>
+
+<body style="margin:0;">
+	<div id="main" style="height:100%;">
+	<div id="webglcontent" style="height:100%;">
+	<div id="unity-container" style="height:100%; position:relative;">
+	<canvas id="unity-canvas" style="width:100%; height:100%;"></canvas>
+	</div>
+
+	<div id="logo-div" style="position:absolute; inset:0;">    
+		<img src="https://bulka-games-llc.github.io/PI_sbox/TemplateData/bulka-logo.png" style="width:100%;height:100%;object-fit:cover;">
+		<img id="progress-bar-primary"
+		src="https://bulka-games-llc.github.io/PI_sbox/TemplateData/progress-bar-full.png"
+		style="position:absolute; bottom:0; left:0; height:10px; width:0%;">
+	</div>
+
+	<div id="Footer" onclick="gameInstance.SetFullscreen(1)"></div>
+	</div>
+	</div>
+</body>
