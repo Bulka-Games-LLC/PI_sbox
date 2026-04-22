@@ -3,10 +3,10 @@
   const HEIGHT_RATIO = 0.85;
   const WIDTH_RATIO = 0.9;
 
-  function resizeUnity() {
+  function setRootHeight() {
 console.log("setRootHeight");
 
-const h0 = window.innerHeight;
+	const h0 = window.innerHeight;
 	document.getElementById("main").style.height = h0 + "px";
 
     const container = document.getElementById("webglcontent");
@@ -28,6 +28,13 @@ const h0 = window.innerHeight;
     container.style.margin = "0 auto";
   }
 
-  window.addEventListener("resize", resizeUnity);
-  window.addEventListener("load", resizeUnity);
+function refreshNutakuFrame(){
+NutakuGI.setIframeSize();
+}
+
+  window.setRootHeight = setRootHeight;
+window.refreshNutakuFrame = refreshNutakuFrame;
+document.addEventListener("fullscreenchange", refreshNutakuFrame);
+  window.addEventListener("resize", setRootHeight);
+  window.addEventListener("load", setRootHeight);
 })();

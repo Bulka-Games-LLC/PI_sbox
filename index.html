@@ -20,12 +20,6 @@ var canvas;
 var bar;
 var barParent;
 var fullButton;
-             
-function setRootHeight() {
-console.log("setRootHeight");
-	const h = window.innerHeight;
-	document.getElementById("main").style.height = h + "px";
-}
 
 function init() {
 	canvas = document.querySelector("#unity-canvas");
@@ -33,9 +27,9 @@ function init() {
 	barParent = document.querySelector("#logo-div");
 	fullButton = document.querySelector("#unity-fullscreen-button");
 
-	NutakuGI.setIframeSize();
+	//NutakuGI.setIframeSize();
+refreshNutakuFrame();
 	setRootHeight();
-	window.addEventListener("resize", setRootHeight);
 	
 	createUnityInstance(canvas, config, (progress) => {
 		bar.style.width = 100 * progress + "%";
