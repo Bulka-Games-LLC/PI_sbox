@@ -44,9 +44,6 @@ function init() {
 		bar.style.width = 100 * progress + "%";
 		}).then((unityInstance) => {
 			gameInstance = unityInstance;
-			//barParent.parentNode.removeChild(barParent);
-			fullButton.addEventListener("click", () => {
-      				gameInstance) gameInstance.SetFullscreen(1);
 			}).catch((message) => {
 				alert(message);
 				});
