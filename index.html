@@ -32,9 +32,6 @@ function init() {
 	bar = document.querySelector("#progress-bar-primary");
 	barParent = document.querySelector("#logo-div");
 	fullButton = document.querySelector("#unity-fullscreen-button");
-				
-	canvas.style.width  = '100%';
-	canvas.style.height = '100%';
 
 	NutakuGI.setIframeSize();
 	setRootHeight();
@@ -61,12 +58,11 @@ window.addEventListener('load', init);
 		src="https://bulka-games-llc.github.io/PI_sbox/TemplateData/progress-bar-full.png"
 		style="position:absolute; bottom:0; left:0; height:10px; width:0%;">
 	</div>
-	<div id="webglcontent" style="position:relative; display: inline-block;z-index:1;">
-	<div id="unity-container">
-	<canvas id="unity-canvas"></canvas>
-	</div>	
-
-	<div id="unity-fullscreen-button"></div>
+	<div id="webglcontent">
+		<div id="unity-container">
+			<canvas id="unity-canvas"></canvas>
+		</div>
+		<div id="unity-fullscreen-button"></div>
 	</div>
 	</div>
 </body>
