@@ -1,0 +1,11 @@
+﻿#unity-fullscreen-button {
+    position: absolute;
+    right: -52px;
+    bottom: 0px;
+    width: 32px;
+    height: 32px;
+    background: url("fullscreen-icon.png") no-repeat center center;
+    background-size: contain;
+    cursor: pointer;
+    z-index: 50;
+}
