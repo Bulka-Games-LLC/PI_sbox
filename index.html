@@ -36,6 +36,8 @@ refreshNutakuFrame();
 		}).then((unityInstance) => {
 			gameInstance = unityInstance;
 			barParent.removeChild(bar);
+			fullButton.addEventListener("click", () => { gameInstance.SetFullscreen(1);  });
+
 			}).catch((message) => {
 				alert(message);
 				});
