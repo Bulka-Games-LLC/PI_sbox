@@ -41,6 +41,7 @@ function init() {
 		bar.style.width = 100 * progress + "%";
 		}).then((unityInstance) => {
 			gameInstance = unityInstance;
+			barParent.removeChild(bar);
 			}).catch((message) => {
 				alert(message);
 				});
