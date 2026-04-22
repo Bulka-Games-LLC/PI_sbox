@@ -13,6 +13,7 @@
     background-size: contain;
     cursor: pointer;
     z-index: 50;
+    display: none;
 }
 
 #unity-canvas {
