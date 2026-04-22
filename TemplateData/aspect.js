@@ -9,7 +9,7 @@ console.log("setRootHeight");
 const h0 = window.innerHeight;
 	document.getElementById("main").style.height = h0 + "px";
 
-    const container = document.getElementById("unity-container");
+    const container = document.getElementById("webglcontent");
     if (!container) return;
 
     const maxW = window.innerWidth * WIDTH_RATIO;
