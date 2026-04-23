@@ -13,7 +13,7 @@ const config   = {
 	streamingAssetsUrl: "https://bulka-games-llc.github.io/PI_sbox/StreamingAssets",
 	companyName:        'Bulkagames',
 	productName:        'PussyIsland',
-	productVersion:     "2.1.4",
+	productVersion:     "2.1.3",
 	};
 			
 var canvas;
@@ -27,8 +27,7 @@ function init() {
 	barParent = document.querySelector("#logo-div");
 	fullButton = document.querySelector("#unity-fullscreen-button");
 
-	//NutakuGI.setIframeSize();
-refreshNutakuFrame();
+	refreshNutakuFrame();
 	setRootHeight();
 	
 	createUnityInstance(canvas, config, (progress) => {
@@ -44,7 +43,6 @@ refreshNutakuFrame();
 }
 
 window.addEventListener('load', init);
-
 </script>
 
 <body style="margin:0;">

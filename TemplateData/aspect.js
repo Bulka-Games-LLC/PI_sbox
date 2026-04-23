@@ -3,38 +3,39 @@
   const HEIGHT_RATIO = 0.85;
   const WIDTH_RATIO = 0.9;
 
-  function setRootHeight() {
-console.log("setRootHeight");
+ function setRootHeight() {
+	console.log("setRootHeight");
 
 	const h0 = window.innerHeight;
 	document.getElementById("main").style.height = h0 + "px";
 
-    const container = document.getElementById("webglcontent");
-    if (!container) return;
+    	const container = document.getElementById("webglcontent");
+    	if (!container) return;
 
-    const maxW = window.innerWidth * WIDTH_RATIO;
-    const baseH = window.innerHeight * HEIGHT_RATIO;
+    	const maxW = window.innerWidth * WIDTH_RATIO;
+    	const baseH = window.innerHeight * HEIGHT_RATIO;
 
-    let h = baseH;
-    let w = h * ASPECT;
+    	let h = baseH;
+    	let w = h * ASPECT;
 
-    if (w > maxW) {
-      w = maxW;
-      h = w / ASPECT;
-    }
+    	if (w > maxW) {
+      		w = maxW;
+      		h = w / ASPECT;
+    		}
 
-    container.style.width = w + "px";
-    container.style.height = h + "px";
-    container.style.margin = "0 auto";
-  }
+    	container.style.width = w + "px";
+    	container.style.height = h + "px";
+    	container.style.margin = "0 auto";
+  	}
 
 function refreshNutakuFrame(){
-NutakuGI.setIframeSize();
-}
+	console.log("refreshNutakuFrame");
+	NutakuGI.setIframeSize();
+	}
 
-  window.setRootHeight = setRootHeight;
+window.setRootHeight = setRootHeight;
 window.refreshNutakuFrame = refreshNutakuFrame;
 document.addEventListener("fullscreenchange", refreshNutakuFrame);
-  window.addEventListener("resize", setRootHeight);
-  window.addEventListener("load", setRootHeight);
+window.addEventListener("resize", setRootHeight);
+window.addEventListener("load", setRootHeight);
 })();
