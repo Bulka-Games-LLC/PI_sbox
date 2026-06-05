@@ -3,16 +3,12 @@
     <type fullname="PussyIsland.Audio.SoundContainer" preserve="all" />
     <type fullname="PussyIsland.Characters.CharacterContentConfig" preserve="all" />
     <type fullname="PussyIsland.Characters.CharactersConfig" preserve="all" />
-    <type fullname="PussyIsland.EventsContent.BattlePassContent" preserve="all" />
     <type fullname="PussyIsland.Game.InitIntro.IntroPlayerLogic" preserve="all" />
     <type fullname="PussyIsland.Game.InitIntro.PhrasePlayer" preserve="all" />
     <type fullname="PussyIsland.Game.InitIntro.SkeletonStateController" preserve="all" />
     <type fullname="PussyIsland.Game.InitIntro.TransitionsHandler" preserve="all" />
     <type fullname="PussyIsland.Game.Localization.LocalizationTextMeshPro" preserve="all" />
     <type fullname="PussyIsland.Items.ItemsSpritesConfig" preserve="all" />
-    <type fullname="PussyIsland.Services.UI.BattlePassIcon" preserve="all" />
-    <type fullname="PussyIsland.Services.UI.EventIcon.NotificationModule" preserve="all" />
-    <type fullname="PussyIsland.Services.UI.EventIcon.TimerModule" preserve="all" />
     <type fullname="PussyIsland.World.BuildingClouds" preserve="all" />
     <type fullname="PussyIsland.World.BuildingPart" preserve="all" />
     <type fullname="PussyIsland.World.BuildingsCollection" preserve="all" />
