@@ -21030,8 +21030,8 @@ var ___cxa_increment_exception_refcount = Module["___cxa_increment_exception_ref
 var ___thrown_object_from_unwind_exception = Module["___thrown_object_from_unwind_exception"] = createExportWrapper("__thrown_object_from_unwind_exception");
 /** @type {function(...*):?} */
 var ___get_exception_message = Module["___get_exception_message"] = createExportWrapper("__get_exception_message");
-var ___start_em_js = Module['___start_em_js'] = 7084640;
-var ___stop_em_js = Module['___stop_em_js'] = 7091078;
+var ___start_em_js = Module['___start_em_js'] = 7485792;
+var ___stop_em_js = Module['___stop_em_js'] = 7492230;
 
 // include: postamble.js
 // === Auto-generated postamble setup entry stuff ===
