@@ -3,19 +3,12 @@
     <type fullname="PussyIsland.Audio.SoundContainer" preserve="all" />
     <type fullname="PussyIsland.Characters.CharacterContentConfig" preserve="all" />
     <type fullname="PussyIsland.Characters.CharactersConfig" preserve="all" />
-    <type fullname="PussyIsland.EventsContent.BattlePassContent" preserve="all" />
-    <type fullname="PussyIsland.EventsContent.ClickerContent" preserve="all" />
     <type fullname="PussyIsland.Game.InitIntro.IntroPlayerLogic" preserve="all" />
     <type fullname="PussyIsland.Game.InitIntro.PhrasePlayer" preserve="all" />
     <type fullname="PussyIsland.Game.InitIntro.SkeletonStateController" preserve="all" />
     <type fullname="PussyIsland.Game.InitIntro.TransitionsHandler" preserve="all" />
     <type fullname="PussyIsland.Game.Localization.LocalizationTextMeshPro" preserve="all" />
     <type fullname="PussyIsland.Items.ItemsSpritesConfig" preserve="all" />
-    <type fullname="PussyIsland.Screens.EventGame.ClickerIcon" preserve="all" />
-    <type fullname="PussyIsland.Screens.EventGame.EventAnimationPlayer" preserve="all" />
-    <type fullname="PussyIsland.Services.UI.BattlePassIcon" preserve="all" />
-    <type fullname="PussyIsland.Services.UI.EventIcon.NotificationModule" preserve="all" />
-    <type fullname="PussyIsland.Services.UI.EventIcon.TimerModule" preserve="all" />
     <type fullname="PussyIsland.World.BuildingClouds" preserve="all" />
     <type fullname="PussyIsland.World.BuildingPart" preserve="all" />
     <type fullname="PussyIsland.World.BuildingsCollection" preserve="all" />
@@ -31,7 +24,6 @@
     <type fullname="PussyIsland.Game.InitIntro.Phrase" preserve="nothing" serialized="true" />
     <type fullname="PussyIsland.Game.InitIntro.PhrasesBlock" preserve="nothing" serialized="true" />
     <type fullname="PussyIsland.Services.Localize.LocalString" preserve="nothing" serialized="true" />
-    <type fullname="PussyIsland.Screens.EventGame.AnimStatePlayer" preserve="nothing" serialized="true" />
   </assembly>
   <assembly fullname="spine-unity, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
     <type fullname="Spine.Unity.SkeletonAnimation" preserve="all" />
@@ -42,8 +34,6 @@
   </assembly>
   <assembly fullname="Unity.Addressables, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null" preserve="all">
     <type fullname="UnityEngine.AddressableAssets.Addressables" preserve="all" />
-    <type fullname="UnityEngine.AddressableAssets.AssetReference" preserve="nothing" serialized="true" />
-    <type fullname="UnityEngine.AddressableAssets.AssetReferenceSprite" preserve="nothing" serialized="true" />
   </assembly>
   <assembly fullname="Unity.ResourceManager, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null" preserve="all">
     <type fullname="UnityEngine.ResourceManagement.ResourceProviders.AssetBundleProvider" preserve="all" />
@@ -106,7 +96,6 @@
     <type fullname="UnityEngine.UI.ContentSizeFitter" preserve="all" />
     <type fullname="UnityEngine.UI.GraphicRaycaster" preserve="all" />
     <type fullname="UnityEngine.UI.Image" preserve="all" />
-    <type fullname="UnityEngine.UI.Mask" preserve="all" />
     <type fullname="UnityEngine.UI.VerticalLayoutGroup" preserve="all" />
     <type fullname="UnityEngine.UI.AnimationTriggers" preserve="nothing" serialized="true" />
     <type fullname="UnityEngine.UI.Button/ButtonClickedEvent" preserve="nothing" serialized="true" />
