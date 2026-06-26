@@ -34,7 +34,6 @@
     <type fullname="PussyIsland.Game.InitIntro.PhrasesBlock" preserve="nothing" serialized="true" />
     <type fullname="PussyIsland.Services.Localize.LocalString" preserve="nothing" serialized="true" />
     <type fullname="PussyIsland.Screens.EventGame.AnimStatePlayer" preserve="nothing" serialized="true" />
-    <type fullname="PussyIsland.Characters.ClipMusicType" preserve="nothing" serialized="true" />
     <type fullname="PussyIsland.Characters.StoryClipData" preserve="nothing" serialized="true" />
     <type fullname="PussyIsland.Characters.StoryData" preserve="nothing" serialized="true" />
     <type fullname="StorySoundSubtype" preserve="nothing" serialized="true" />
