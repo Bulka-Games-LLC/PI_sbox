@@ -34,9 +34,9 @@
     <type fullname="PussyIsland.Services.Localize.LocalString" preserve="nothing" serialized="true" />
     <type fullname="PussyIsland.Game.InitIntro.Phrase" preserve="nothing" serialized="true" />
     <type fullname="PussyIsland.Game.InitIntro.PhrasesBlock" preserve="nothing" serialized="true" />
-    <type fullname="PussyIsland.Screens.EventGame.AnimStatePlayer" preserve="nothing" serialized="true" />
     <type fullname="PussyIsland.Characters.StoryClipData" preserve="nothing" serialized="true" />
     <type fullname="PussyIsland.Characters.StoryData" preserve="nothing" serialized="true" />
+    <type fullname="PussyIsland.Screens.EventGame.AnimStatePlayer" preserve="nothing" serialized="true" />
   </assembly>
   <assembly fullname="spine-unity, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
     <type fullname="Spine.Unity.SkeletonAnimation" preserve="all" />
@@ -49,7 +49,6 @@
     <type fullname="UnityEngine.AddressableAssets.Addressables" preserve="all" />
     <type fullname="UnityEngine.AddressableAssets.AssetReference" preserve="nothing" serialized="true" />
     <type fullname="UnityEngine.AddressableAssets.AssetReferenceSprite" preserve="nothing" serialized="true" />
-    <type fullname="UnityEngine.AddressableAssets.AssetReferenceT`1" preserve="nothing" serialized="true" />
   </assembly>
   <assembly fullname="Unity.ResourceManager, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null" preserve="all">
     <type fullname="UnityEngine.ResourceManagement.ResourceProviders.AssetBundleProvider" preserve="all" />
