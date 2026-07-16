@@ -13,6 +13,7 @@
     <type fullname="PussyIsland.Items.ItemsSpritesConfig" preserve="all" />
     <type fullname="PussyIsland.Screens.EventGame.ClickerIcon" preserve="all" />
     <type fullname="PussyIsland.Screens.EventGame.EventAnimationPlayer" preserve="all" />
+    <type fullname="PussyIsland.Screens.Shop.OfferBgSpritesConfig" preserve="all" />
     <type fullname="PussyIsland.Services.UI.BPMergeBoardProgress" preserve="all" />
     <type fullname="PussyIsland.Services.UI.EventIcon.BattlePassIcon" preserve="all" />
     <type fullname="PussyIsland.Services.UI.EventIcon.NotificationModule" preserve="all" />
@@ -35,6 +36,8 @@
     <type fullname="PussyIsland.Services.Localize.LocalString" preserve="nothing" serialized="true" />
     <type fullname="PussyIsland.Game.InitIntro.Phrase" preserve="nothing" serialized="true" />
     <type fullname="PussyIsland.Game.InitIntro.PhrasesBlock" preserve="nothing" serialized="true" />
+    <type fullname="PussyIsland.Screens.Shop.OfferBgSpriteEntry" preserve="nothing" serialized="true" />
+    <type fullname="PussyIsland.Screens.Shop.OfferCharSpriteEntry" preserve="nothing" serialized="true" />
     <type fullname="PussyIsland.Characters.StoryClipData" preserve="nothing" serialized="true" />
     <type fullname="PussyIsland.Characters.StoryData" preserve="nothing" serialized="true" />
   </assembly>
