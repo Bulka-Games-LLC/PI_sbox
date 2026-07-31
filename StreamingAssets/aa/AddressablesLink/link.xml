@@ -38,6 +38,7 @@
     <type fullname="PussyIsland.Game.InitIntro.Phrase" preserve="nothing" serialized="true" />
     <type fullname="PussyIsland.Game.InitIntro.PhrasesBlock" preserve="nothing" serialized="true" />
     <type fullname="PussyIsland.Popups.OfferPopupSpriteEntry" preserve="nothing" serialized="true" />
+    <type fullname="PussyIsland.Popups.StarterPackSpriteBinding" preserve="nothing" serialized="true" />
     <type fullname="PussyIsland.Screens.Shop.OfferBgSpriteEntry" preserve="nothing" serialized="true" />
     <type fullname="PussyIsland.Screens.Shop.OfferCharSpriteEntry" preserve="nothing" serialized="true" />
     <type fullname="PussyIsland.Characters.StoryClipData" preserve="nothing" serialized="true" />
@@ -71,10 +72,10 @@
     <type fullname="TMPro.LigatureSubstitutionRecord" preserve="nothing" serialized="true" />
     <type fullname="TMPro.MarkPositionAdjustment" preserve="nothing" serialized="true" />
     <type fullname="TMPro.MarkToBaseAdjustmentRecord" preserve="nothing" serialized="true" />
+    <type fullname="TMPro.TMP_Character" preserve="nothing" serialized="true" />
     <type fullname="TMPro.TMP_FontFeatureTable" preserve="nothing" serialized="true" />
     <type fullname="TMPro.TMP_FontWeightPair" preserve="nothing" serialized="true" />
     <type fullname="TMPro.VertexGradient" preserve="nothing" serialized="true" />
-    <type fullname="TMPro.TMP_Character" preserve="nothing" serialized="true" />
   </assembly>
   <assembly fullname="UnityEngine.AnimationModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
     <type fullname="UnityEngine.Animation" preserve="all" />
