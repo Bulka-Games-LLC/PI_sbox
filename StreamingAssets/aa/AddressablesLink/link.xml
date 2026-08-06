@@ -3,6 +3,7 @@
     <type fullname="PussyIsland.Audio.SoundContainer" preserve="all" />
     <type fullname="PussyIsland.Characters.CharacterContentConfig" preserve="all" />
     <type fullname="PussyIsland.Characters.CharactersConfig" preserve="all" />
+    <type fullname="PussyIsland.CommonTools.ScaleHighlight" preserve="all" />
     <type fullname="PussyIsland.EventsContent.BattlePassContent" preserve="all" />
     <type fullname="PussyIsland.EventsContent.ClickerContent" preserve="all" />
     <type fullname="PussyIsland.Game.InitIntro.IntroPlayerLogic" preserve="all" />
