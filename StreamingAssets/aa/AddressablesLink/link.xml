@@ -12,6 +12,7 @@
     <type fullname="PussyIsland.Game.InitIntro.TransitionsHandler" preserve="all" />
     <type fullname="PussyIsland.Game.Localization.LocalizationTextMeshPro" preserve="all" />
     <type fullname="PussyIsland.Items.ItemsSpritesConfig" preserve="all" />
+    <type fullname="PussyIsland.Popups.DoubleOfferSpritesConfig" preserve="all" />
     <type fullname="PussyIsland.Popups.OfferPopupSpritesConfig" preserve="all" />
     <type fullname="PussyIsland.Screens.EventGame.ClickerIcon" preserve="all" />
     <type fullname="PussyIsland.Screens.EventGame.EventAnimationPlayer" preserve="all" />
@@ -38,6 +39,7 @@
     <type fullname="PussyIsland.Services.Localize.LocalString" preserve="nothing" serialized="true" />
     <type fullname="PussyIsland.Game.InitIntro.Phrase" preserve="nothing" serialized="true" />
     <type fullname="PussyIsland.Game.InitIntro.PhrasesBlock" preserve="nothing" serialized="true" />
+    <type fullname="PussyIsland.Popups.DoubleOfferSpriteEntry" preserve="nothing" serialized="true" />
     <type fullname="PussyIsland.Popups.OfferPopupSpriteEntry" preserve="nothing" serialized="true" />
     <type fullname="PussyIsland.Popups.StarterPackSpriteBinding" preserve="nothing" serialized="true" />
     <type fullname="PussyIsland.Screens.Shop.OfferBgSpriteEntry" preserve="nothing" serialized="true" />
