@@ -7,6 +7,7 @@
     <type fullname="PussyIsland.CommonTools.ScaleHighlight" preserve="all" />
     <type fullname="PussyIsland.EventsContent.BattlePassContent" preserve="all" />
     <type fullname="PussyIsland.EventsContent.ClickerContent" preserve="all" />
+    <type fullname="PussyIsland.EventsContent.WheelContent" preserve="all" />
     <type fullname="PussyIsland.Game.InitIntro.IntroPlayerLogic" preserve="all" />
     <type fullname="PussyIsland.Game.InitIntro.PhrasePlayer" preserve="all" />
     <type fullname="PussyIsland.Game.InitIntro.SkeletonStateController" preserve="all" />
@@ -23,6 +24,7 @@
     <type fullname="PussyIsland.Services.UI.EventIcon.NotificationModule" preserve="all" />
     <type fullname="PussyIsland.Services.UI.EventIcon.ProgressModule" preserve="all" />
     <type fullname="PussyIsland.Services.UI.EventIcon.TimerModule" preserve="all" />
+    <type fullname="PussyIsland.Services.UI.EventIcon.WheelIcon" preserve="all" />
     <type fullname="PussyIsland.World.BuildingClouds" preserve="all" />
     <type fullname="PussyIsland.World.BuildingPart" preserve="all" />
     <type fullname="PussyIsland.World.BuildingsCollection" preserve="all" />
